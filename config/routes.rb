@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get '/' => 'user#first'
+  get '/' => 'main#index'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
